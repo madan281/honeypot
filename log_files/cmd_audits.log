@@ -1,0 +1,40 @@
+Client 127.0.0.1 attempted login with username="attacker" password="hacked123"
+Command "whoami" executed by 127.0.0.1
+Command "pwd" executed by 127.0.0.1
+Command "ls" executed by 127.0.0.1
+Command "cat jumpbox1.conf" executed by 127.0.0.1
+Client 127.0.0.1 attempted login with username="attacker" password="hacked123"
+Command "whoami" executed by 127.0.0.1
+Command "pwd" executed by 127.0.0.1
+Command "ls" executed by 127.0.0.1
+Command "cat jumpbox.conf" executed by 127.0.0.1
+Client 127.0.0.1 attempted login with username="attacker" password="hacked123"
+Command "" executed by 127.0.0.1
+Command "" executed by 127.0.0.1
+Command "" executed by 127.0.0.1
+Command "" executed by 127.0.0.1
+Command "" executed by 127.0.0.1
+Command "" executed by 127.0.0.1
+Command "" executed by 127.0.0.1
+Command "" executed by 127.0.0.1
+Command "" executed by 127.0.0.1
+Command "" executed by 127.0.0.1
+Command "" executed by 127.0.0.1
+Command "" executed by 127.0.0.1
+Command "" executed by 127.0.0.1
+Command "" executed by 127.0.0.1
+Command "whoami" executed by 127.0.0.1
+Command "ls" executed by 127.0.0.1
+Client 127.0.0.1 attempted login with username="attacker" password="hacked123"
+Command "whoami" executed by 127.0.0.1
+Command "pwd" executed by 127.0.0.1
+Command "ls" executed by 127.0.0.1
+Client 127.0.0.1 attempted login with username="attacker" password="hacked123"
+Client 127.0.0.1 attempted login with username="attacker" password="hacked123"
+Client 127.0.0.1 attempted login with username="attacker" password="hacked"
+Client 127.0.0.1 attempted login with username="attacker" password="hacked"
+Client 127.0.0.1 attempted login with username="testuser" password="hacked123"
+Command "whoami" executed by 127.0.0.1
+Command "pwd" executed by 127.0.0.1
+Command "ls" executed by 127.0.0.1
+Command "cat jumpbox1.conf" executed by 127.0.0.1
