@@ -1,25 +1,38 @@
-# 🕵️‍♂️ Honeypot Trap: Fake Login Collector (Instagram/WordPress)
+# 🛡️ SSH & Web Honeypot Project
 
-This is a cybersecurity honeypot that simulates fake login portals (e.g., WordPress or Instagram) to collect and analyze malicious login attempts. It also includes an SSH honeypot to capture attacker commands.
+This project is a dual-purpose cybersecurity honeypot designed to detect and log malicious login attempts against both:
+- A **fake SSH service** using Paramiko.
+- A **fake web login interface** styled to mimic popular platforms like WordPress or Instagram.
 
-## 🔒 Features
+## 🔍 Features
 
-- ✅ Fake Instagram/WordPress login interface
-- 📥 Captures username, password, IP, timestamp, and country
-- 🌍 GeoIP mapping of attackers using CleanTalk API
-- 📊 Web dashboard to visualize:
-  - Captured credentials
-  - Top login attempts
-  - Executed SSH commands
-- 📡 SSH honeypot with command logging via Paramiko
-- 📁 Rotating log files stored locally
+- **SSH Honeypot**:
+  - Captures login credentials.
+  - Logs attacker IPs and commands.
+  - Uses rotating log files for persistence.
 
----
+- **Web Honeypot**:
+  - Fake login page (WordPress or Instagram style).
+  - Captures usernames, passwords, IP, timestamp, and geolocation.
+  - Redirects attackers to a fake dashboard or message.
 
-## 🚀 Setup Instructions
+- **Dashboard**:
+  - Visual interface to view captured credentials and executed commands.
+  - Optional login attempts chart.
+
+## 🧰 Tech Stack
+
+- Python 3.x
+- Flask
+- Paramiko
+- Pandas
+- Requests
+- HTML/CSS
+
+## 🚀 Getting Started
 
 ### 1. Clone the Repository
-
 ```bash
-git clone https://github.com/your-username/honeypot-trap.git
-cd honeypot-trap
+git clone https://github.com/your-username/honeypot-project.git
+cd honeypot-project
+
